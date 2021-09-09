@@ -69,7 +69,7 @@ async def status_message_f(client, message):
             msg += " | "
             msg += f"{download_current_status}"
             msg += " | "
-            msg += f"<code>/cancel {current_gid}</code>"
+            msg += f"<code>pon /cancel {current_gid}</code>"
             msg += " | "
             msg += "\n\n"
         # LOGGER.info(msg)
@@ -87,7 +87,7 @@ async def status_message_f(client, message):
         f"<b>Bot Uptime</b>: <code>{hr}h {mi}min {se}sec</code>\n"
         f"<b>Total disk space</b>: <code>{total}</code>\n"
         f"<b>Used wey nooo</b>: <code>{used}</code>\n"
-        f"<b>Free</b>: <code>{free}</code>\n"
+        f"<b>Free soy yo xd</b>: <code>{free}</code>\n"
     )
     # LOGGER.info(ms_g)
 
