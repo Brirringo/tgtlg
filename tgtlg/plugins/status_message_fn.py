@@ -23,7 +23,7 @@ from tgtlg.UserDynaConfig import UserDynaConfig
 
 async def upload_as_doc(client, message):
     user_specific_config[message.from_user.id]=UserDynaConfig(message.from_user.id,True)
-    await message.reply_text("**Your files will be uploaded as Document. Si funciona**")
+    await message.reply_text("**Your files will be uploaded as Document.**")
 
 
 async def upload_as_video(client, message):
@@ -85,7 +85,7 @@ async def status_message_f(client, message):
 
     ms_g = (
         f"<b>Bot Uptime</b>: <code>{hr}h {mi}min {se}sec</code>\n"
-        f"<b>Total disk space xd</b>: <code>{total}</code>\n"
+        f"<b>Total disk space</b>: <code>{total}</code>\n"
         f"<b>Used</b>: <code>{used}</code>\n"
         f"<b>Free</b>: <code>{free}</code>\n"
     )
